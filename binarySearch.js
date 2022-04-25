@@ -9,8 +9,6 @@ var search = function(nums, target) {
     
     while(left <= right) {
            let mid = Math.floor((left + right)/2)
-    
-        
         if(target  < nums[mid]){
             right = mid - 1
          } else if(target  > nums[mid] ){
